@@ -1,0 +1,215 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+direction:rtl;
+vertical-align:-12px;
+}
+body {
+background-image:url("../img/28.jpg");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.top {
+    width: 100%;
+    background-color: #ce7526c9;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns:150px auto 150px;
+}
+.top h1 {
+font-family:"B Titr";
+font-weight:bold;
+color:#130f40;
+}
+.back {
+margin-top: 5px;
+}
+.main-page {
+color: rgb(47, 54, 64);
+font-size:18px;
+font-family:"B Titr";
+padding:3px;
+background-color:#dcdde1;
+border-style:none;
+border-radius:10px;
+text-decoration:none;
+}
+.back button {
+color:#2f3640;
+font-family:"B Titr";
+font-size:18px;
+padding:3px;
+background-color:#dcdde1;
+border-style:none;
+border-radius:10px;
+}
+nav{
+width:100%;
+text-align:center;
+display:block;
+}
+nav a {
+width:25%;
+font-size:15px;
+float:right;
+list-style:none;
+display:block;
+background:linear-gradient(to left, rgba(125, 196, 242, 0.7),#caf8ff, rgba(125, 196, 242, 0.7));
+padding-bottom:12px;
+text-decoration:none;
+color:#000;
+}
+.main {
+width:90%;
+height:fit-content;
+display:inline-block;
+clear: both;
+margin-right:5%;
+margin-top:20px;
+padding:5px;
+background-color: rgba(45, 45, 56, 0.22);
+}
+.members {
+margin-top: 0.5%;
+display: inline-block;
+float:left;
+}
+h2 {
+font-family:"B Titr";
+color:#000;
+background:linear-gradient(to left,#7dc4f2,#caf8ff,#7dc4f2);
+text-align:center;
+border-radius:7px;
+border:3px solid #2c3e50;
+padding:5px;
+}
+.flip {
+height:auto;
+float:right;
+display:block;
+background-color: rgba(124, 105, 105, 0);
+text-align: center;
+}
+.flipper {
+width:120px;
+height:120px;
+margin:0.5% 0;
+display:inline-block;
+}
+.flip-inner {
+height:100%;
+position:relative;
+transition:transform 1s;
+transform-style:preserve-3d;
+}
+.flip-card-front, .flip-card-back {
+position:absolute;
+width:100%;
+height:100%;
+text-align:center;
+backface-visibility:hidden;
+}
+.flip-card-back {
+width:100%;
+background-color:#102737f7;
+transform:rotateY(180deg);
+color:#fff;
+font-family:"Times New Roman";
+border-radius:5%;
+}
+.responsive-img {
+max-width:100%;
+height:100%;
+border-radius:5px;
+}
+.forms {
+display:inline-block;
+margin-top: 0.5%;
+}
+.forms input[type="text"] , [type="email"] , [type="phone number"] {
+font-family:"B Davat";
+font-size:20px;
+padding:15px;
+margin:5px 20px;
+border:1px solid #000;
+border-radius:10px;
+display:block;
+}
+
+.forms label {
+font-family:"B Nazanin";
+flaot:right;
+font-weight:bold;
+color:#fff;
+margin:5px 20px;
+padding:5px;
+display:inline-block;
+}
+textarea {
+font-family:"B Nazanin";
+min-height:100px;
+margin: 5px 20px;
+padding:10px;
+display:inline-block;
+border-top:1px solid #2d3436;
+font-size:20px;
+border-radius:10px;
+}
+.forms input[type="submit"] {
+height:105px;
+margin-top:1%;
+padding:30px;
+background-image:url("../img/45.jpg");
+cursor:pointer;
+border-radius:15px;
+border-top-right-radius:0;
+border:solid 1.5px #2d3436;
+transition: transform ease-out 0.7s;
+}
+/*** Hovering ****/
+
+nav a:hover {
+background:linear-gradient(to left,#ce7526c9,#ce7526c9);
+cursor:pointer
+}
+.back button:hover {
+border-radius:15px;
+background-color:#caf8ff;
+cursor:pointer;
+}
+.back a:hover {
+border-radius:15px;
+background-color:#caf8ff;
+}
+.flipper:hover .flip-inner {
+transform:scale(0.9) rotateY(180deg);
+border: 2px solid #f6c111;
+border-radius:5px;
+}
+.forms :focus{
+outline:none;
+border:solid 3px #353b48;
+border-radius:10px;
+}
+.forms input[type="text"]:focus{
+outline:none;
+border:solid 3px #353b48;
+border-radius:10px;
+}
+.forms input[type="submit"]:hover {
+border:solid #000;
+border-radius:15px;
+border-top-right-radius:0;
+border-bottom-right-radius:0;
+transform:rotateY(180deg);
+}
+.forms input[type="submit"]:focus {
+border-top-right-radius:0;
+border-bottom-right-radius:0;
+}

@@ -1,0 +1,285 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+direction:rtl;
+}
+
+.top {
+width:100%;
+background-color: rgba(23, 43, 51, 0.73);
+text-align:center;
+padding:10px;
+position: relative;
+}
+
+.top h1 {
+font-size:35px;
+font-family:"B Titr";
+font-weight:bold;
+color: #ffffff;
+}
+map {
+z-index: 2;
+}
+.back {
+position:absolute;
+top:15%;
+font-size:18px;
+
+}
+.main-page {
+color: rgb(47, 54, 64);
+font-family:"B Titr";
+padding:5px;
+background-color:#dcdde1;
+border-style:none;
+border-radius:10px;
+text-decoration:none;
+}
+.back button {
+color:#2f3640;
+font-family:"B Titr";
+font-size:18px;
+padding:5px;
+background-color:#dcdde1;
+border-style:none;
+border-radius:10px;
+}
+.map {
+float:left;
+width:100%;
+text-align:center;
+margin-top:50px;
+padding:35px;
+position:relative;
+}
+.wave {
+width:160px;
+height:95px;
+border:2px solid #bbb2b2;
+border-radius:10%;
+}
+#DEL {
+position: absolute;
+top:44%;
+left:65%;
+display:none;
+}
+#OTTO {
+position: absolute;
+top:22%;
+left:56%;
+display:none;
+}
+.ABBA {
+position: absolute;
+top:33%;
+left:58%;
+display:none;
+}
+.AYY {
+position: absolute;
+top:33%;
+left:49.5%;
+display:none;
+}
+#RUS {
+position: absolute;
+top:7%;
+left:71%;
+display:none;
+
+}
+.FRE {
+position: absolute;
+top:27%;
+left:34.7%;
+display:none;
+}
+.JD {
+position: absolute;
+top:27%;
+left:43%;
+display:none;
+}
+.HRE {
+position: absolute;
+top:5.9%;
+left:49.5%;
+display:none;
+}
+.OOTD {
+position: absolute;
+top:16%;
+left:49.5%;
+display:none;
+}
+#ENG {
+position: absolute;
+top:14%;
+left:38.3%;
+display:none;
+}
+.CHN {
+position: absolute;
+top:39.1%;
+left:73.5%;
+display:none;
+}
+.ZHU {
+position: absolute;
+top:29%;
+left:73.5%;
+display:none;
+}
+#BYZ{
+position: absolute;
+top:20%;
+left:53%;
+display:none;
+}
+#JPN{
+position: absolute;
+top:25%;
+left:84%;
+display:none;
+}
+#MAL {
+position: absolute;
+top:44%;
+left:38%;
+display:none;
+}
+#MON {
+position: absolute;
+top:17%;
+left:73%;
+display:none;
+}
+/*lesser resolutions styles*/
+.inform {
+text-align: center;
+margin-top:2%;
+}
+.inform h3 {
+font-family:'B Nazanin';
+background-color: #e1bc21;
+border:8px double #dc0909;
+border-radius:10px;
+text-align:center;
+animation:appear 1.5s linear infinite;
+}
+@keyframes loading {
+from{opacity:0.7}
+to {
+opacity: 1;
+}
+}
+.civs {
+border-radius: 10px;
+justify-items: center;
+padding-top:2%;
+}
+.civ{
+display: inline-block;
+justify-items: center;
+    overflow: hidden;
+}
+.responsive-img{
+max-width:100%;
+border-radius:5%;
+filter: brightness(0.5);
+}
+.s-resolution {
+margin-top:-110px;
+}
+/*** Hovering ****/
+
+.back button:hover {
+border-radius:15px;
+background-color: #a6b3d9;
+cursor:pointer;
+}
+.back a:hover {
+border-radius:5px;
+background-color:#a6b3d9;
+cursor:pointer;
+}
+.civ img:hover {
+filter:brightness(1.1);
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.rus:hover #RUS {
+display:block;
+animation:appear 0.5s;
+}
+.mon:hover #MON {
+display:block;
+animation:appear 0.5s;
+}
+.chn:hover .CHN {
+display:block;
+animation:appear 0.5s;
+}
+.chn:hover .ZHU {
+display: block;
+animation:appear 0.5s;
+}
+.jpn:hover #JPN {
+display:block;
+animation:appear 0.5s;
+}
+.otto:hover #OTTO {
+display:block;
+animation:appear 0.5s;
+}
+.abba:hover .ABBA {
+display:block;
+animation:appear 0.5s;
+}
+.abba:hover .AYY {
+display:block;
+animation:appear 0.5s;
+}
+.hre:hover .HRE {
+display:block;
+animation:appear 0.5s;
+}
+.hre:hover .OOTD {
+display:block;
+animation:appear 0.5s;
+}
+.byz:hover #BYZ {
+display:block;
+animation:appear 0.5s;
+}
+.fre:hover .FRE {
+display:block;
+animation:appear 0.5s;
+}
+.fre:hover .JD {
+display:block;
+animation:appear 0.5s;
+}
+.eng:hover #ENG {
+display:block;
+animation:appear 0.5s;
+}
+.mal:hover #MAL {
+display:block;
+animation:appear 0.5s;
+}
+.del:hover #DEL {
+display:block;
+animation:appear 0.5s;
+}
+@keyframes appear {
+0% {
+opacity: 0.2
+}
+100% {
+(opacity: 1)
+}
+}

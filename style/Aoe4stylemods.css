@@ -1,0 +1,151 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+direction:rtl;
+text-decoration:none;
+}
+body {
+background-image:url("../img/8.png");
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.top {
+width:100%;
+text-align:center;
+border-bottom:solid 2px #FFF;
+border-radius:5px;
+padding:10px;
+background:rgba(76, 175, 80, 0.3);
+position:relative;
+}
+.top h1 {
+font-weight:bold;
+color:#2c3e50;
+display:block;
+}
+
+.back {
+position:absolute;
+top:15%;
+font-size:18px;
+
+}
+.main-page {
+color: rgb(47, 54, 64);
+font-family:"B Titr";
+padding:5px;
+background-color:#dcdde1;
+border-style:none;
+border-radius:10px;
+text-decoration:none;
+}
+.back button {
+color:#2f3640;
+font-family:"B Titr";
+font-size:18px;
+padding:5px;
+background-color:#dcdde1;
+border-style:none;
+border-radius:10px;
+}
+.main {
+margin-top:75px;
+width:100%;
+}
+.mods {
+width:75%;
+padding:15px;
+margin-right:13%;
+text-align:center;
+background-color:#82ccddb0;
+border:solid 2px #130f40;
+border-radius:7px;
+}
+nav {
+clear: both;
+margin:2% auto 0;
+padding:15px;
+text-align:center;
+}
+nav li{
+display:inline-block;
+border:solid 2px #130f40;
+border-radius:10px;
+text-align:center;
+background-color:#82ccdd;
+padding:3px;
+margin-top:10px;
+transition: linear 0.5s;
+}
+h3,h2 {
+font-family:"B Titr";
+color:#130f40;
+text-align:center;
+}
+p {
+font-family:"B Nazanin";
+color:#000;
+text-align:center;
+}
+.group-title {
+position: relative;
+display: inline-block;
+}
+.sub {
+position: absolute;
+width:100%;
+top:100%;
+left: 90%;
+transform: translateX(-90%);
+display:none;
+font-family:"B Nazanin";
+}
+.sub li, .sub li a {
+display: block;
+color: #FFFFFF;
+background-color: rgba(3, 55, 59, 0.51);
+}
+footer {
+width:100%;
+bottom:0;
+position:fixed;
+background:linear-gradient(90deg,rgba(139, 227, 247, 0.7),#274295db,rgba(139, 227, 247, 0.7));
+text-align:center;
+padding:10px;
+border-top:solid 3px #fff;
+}
+footer a {
+font-size:19px;
+font-family:"B Nazanin";
+color:#fff;
+text-decoration:none;
+transition: 0.5s ease-out;
+}
+/*** Hoverinh ***/
+
+.back button:hover {
+border-radius:15px;
+background-color:#c2cbd0;
+cursor:pointer;
+}
+.back a:hover {
+border-radius:15px;
+background-color:#c2cbd0;
+}
+.main summary:hover {
+cursor:pointer;
+}
+@media screen and (max-width: 1200px) {
+.group-title:first-of-type:hover {
+margin-bottom: 140px;
+transition:1.5s;
+}
+}
+.group-title:hover .sub {
+display: block;
+}
+footer a:hover {
+font-size:20px;
+}

@@ -1,0 +1,374 @@
+* {
+direction:rtl;
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+a {
+text-decoration:none;
+}
+li, ol, ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+.container-fluid {
+width:100%;
+}
+.container {
+clear: both;
+max-width:1000px;
+margin-right:auto;
+margin-left:auto;
+}
+.row:after {
+content: '';
+clear:both;
+display: table;
+}
+.responsive-img {
+max-width: 100%;
+height: auto;
+}
+@media only screen and (max-width:600px){
+.col-xs-1 {
+width:8.33%;
+}
+.col-xs-2 {
+width:16.66%;
+}
+.col-xs-3 {
+width:25%;
+}
+.col-xs-4 {
+width:33.33%;
+}
+.col-xs-5 {
+width:41.66%;
+}
+.col-xs-6 {
+width:49%;
+}
+.col-xs-7 {
+width:58.33%;
+}
+.col-xs-8 {
+width:66.66%;
+}
+.col-xs-9 {
+width:75%;
+}
+.col-xs-10 {
+width:83.33%;
+}
+.col-xs-11 {
+width:91.66%;
+}
+.col-xs-12 {
+width:100%;
+}
+.xs-font-h {
+font-size:25px;
+}
+.xs-font-h3 {
+font-size:15px;
+}
+.xs-font-p {
+font-size:15px;
+}
+.xs-font-p2 {
+font-size:20px;
+}
+.xs-font-menu {
+font-size:12px;
+}
+.xs-display{
+display:none;
+}
+.xs-display-yes{
+display:block;
+}
+.xs-margin {
+margin-top:65%;
+}
+}
+@media only screen and (min-width:600px) {
+.col-s-1 {
+width:8.33%;
+}
+.col-s-2 {
+width:16.66%;
+}
+.col-s-3 {
+width:25%;
+}
+.col-s-4 {
+width:33.33%;
+}
+.col-s-5 {
+width:41.66%;
+}
+.col-s-6 {
+width:49%;
+}
+.col-s-7 {
+width:58.33%;
+}
+.col-s-8 {
+width:66.66%;
+}
+.col-s-9 {
+width:75%;
+}
+.col-s-10 {
+width:83.33%;
+}
+.col-s-11 {
+width:91.66%;
+}
+.col-s-12 {
+width:100%;
+}
+.s-font-h {
+font-size:25px;
+}
+.s-font-h3 {
+font-size:15px;
+}
+.s-font-p {
+font-size:15px;
+}
+.s-font-p2 {
+font-size:25px;
+}
+.s-display{
+display:none;
+}
+.s-display-yes{
+display:block;
+}
+.s-margin {
+margin-top:45%;
+}
+}
+@media only screen and (min-width:768px){
+.col-m-1 {
+width:8.33%;
+}
+.col-m-2 {
+width:16.66%;
+}
+.col-m-3 {
+width:24%;
+}
+.col-m-4 {
+width:32.9%;
+}
+.col-m-5 {
+width:41.66%;
+}
+.col-m-6 {
+width:50%;
+}
+.col-m-7 {
+width:58.33%;
+}
+.col-m-8 {
+width:66.66%;
+}
+.col-m-9 {
+width:75%;
+}
+.col-m-10 {
+width:83.33%;
+}
+.col-m-11 {
+width:91.66%;
+}
+.col-m-12 {
+width:100%;
+}
+.m-font-h {
+font-size:30px;
+}
+.m-font-h3 {
+font-size:20px;
+}
+.m-font-p {
+font-size:20px;
+}
+.xs-font-p2 {
+font-size:25px;
+}
+.m-display{
+display:none;
+}
+.m-display-yes {
+display: block;
+}
+.m-margin {
+margin-top:40%;
+}
+.m-margin-r {
+margin-right:78%
+}
+}
+@media only screen and (min-width:922px) {
+.col-l-1 {
+width:8.33%;
+}
+.col-l-2 {
+width:16.66%;
+}
+.col-l-3 {
+width:24%;
+}
+.col-l-4 {
+width:33.33%;
+}
+.col-l-5 {
+width:41.66%;
+}
+.col-l-6 {
+width:50%;
+}
+.col-l-7 {
+width:58.33%;
+}
+.col-l-8 {
+width:66.66%;
+}
+.col-l-9 {
+width:75%;
+}
+.col-l-10 {
+width:83.33%;
+}
+.col-l-11 {
+width:91.66%;
+}
+.col-l-12 {
+width:100%;
+}
+.l-font-h {
+font-size:35px;
+}
+.l-font-h3 {
+font-size:25px;
+}
+.l-font-p {
+font-size:25px;
+}
+.l-display{
+display:none;
+}
+.l-display-yes {
+display: block;
+}
+.l-margin {
+margin-top:35%;
+}
+.l-margin-r {
+margin-right:82%
+}
+}
+@media only screen and (min-width:1200px) {
+.col-xl-1 {
+width:8.33%;
+}
+.col-xl-2 {
+width:16.66%;
+}
+.col-xl-3 {
+width:25%;
+}
+.col-xl-4 {
+width:33.33%;
+}
+.col-xl-5 {
+width:41.66%;
+}
+.col-xl-6 {
+width:50%;
+}
+.col-xl-7 {
+width:58.33%;
+}
+.col-xl-8 {
+width:66.66%;
+}
+.col-xl-9 {
+width:75%;
+}
+.col-xl-10 {
+width:83.33%;
+}
+.col-xl-11 {
+width:91.66%;
+}
+.col-xl-12 {
+width:100%;
+}
+.xl-display{
+display:none;
+}
+.xl-display-yes{
+display:block;
+}
+.xl-margin {
+margin-top:20%;
+}
+.xl-margin-r {
+margin-right:86%
+}
+}
+@media only screen and (min-width:1920px) and (max-width:1920px){
+.col-xxl-1 {
+width:8.33%;
+}
+.col-xxl-2 {
+width:16.66%;
+}
+.col-xxl-3 {
+width:25%;
+}
+.col-xxl-4 {
+width:33.33%;
+}
+.col-xxl-5 {
+width:41.66%;
+}
+.col-xxl-6 {
+width:50%;
+}
+.col-xxl-7 {
+width:58.33%;
+}
+.col-xxl-8 {
+width:66.66%;
+}
+.col-xxl-9 {
+width:75%;
+}
+.col-xxl-10 {
+width:83.33%;
+}
+.col-xxl-11 {
+width:91.66%;
+}
+.col-xxl-12 {
+width:100%;
+}
+.xxl-display{
+display:none;
+}
+.xxl-display-yes{
+display:block;
+}
+.xxl-margin {
+margin-top: 20%;
+}
+.xxl-margin-r {
+margin-right:91%
+}
+}
